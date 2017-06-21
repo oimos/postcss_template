@@ -1,0 +1,45 @@
+/*@import "./utility/reset.css";*/
+
+/*non retina*/
+
+.spriteEl1 {
+  background-image: url(../img/sprite.png);
+  background-position: 0% 100%;
+  -moz-background-size: 100% 193.75%;
+  background-size: 100% 193.75%;
+  width: 32px;
+  height: 32px;
+}
+
+.spriteEl2 {
+  background-image: url(../img/sprite.png);
+  background-position: 0% 0%;
+  -moz-background-size: 160% 310%;
+  background-size: 160% 310%;
+  width: 20px;
+  height: 20px;
+}
+
+/*for retina*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min--moz-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio: 2), only screen and ( -webkit-min-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) {
+  .spriteEl1 {
+    background-image: url(../img/sprite.@2x.png);
+    background-position: 0% 100%;
+    -moz-background-size: 100% 193.75%;
+    background-size: 100% 193.75%;
+    width: 32px;
+    height: 32px;
+  }
+
+  .spriteEl2 {
+    background-image: url(../img/sprite.@2x.png);
+    background-position: 0% 0%;
+    -moz-background-size: 160% 310%;
+    background-size: 160% 310%;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+

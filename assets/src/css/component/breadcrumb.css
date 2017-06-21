@@ -1,0 +1,70 @@
+/*
+# BreadCrumb
+## Breadcrumb (Aling right when text overflow happens)
+
+    <div class="c-breadcrumbContainer">
+	    <div class="c-breadcrumbWrapper">
+	        <ul>
+	            <li><a href="#">楽天市場</a></li>&gt;<!--
+	         --><li><a href="#">パンくず1</a></li>&gt;<!--
+	         --><li><a href="#">パンくず2</a></li>&gt;<!--
+	         --><li><a href="#">パンくず3</a></li>&gt;<!--
+	         --><li><a href="#">パンくず4</a></li>&gt;<!--
+	         --><li><a href="#">パンくず5</a></li>&gt;<!--
+	         --><li><a href="#">パンくず6</a></li>&gt;<!--
+	         --><li><a href="#">パンくず7</a></li>&gt;
+	        </ul>
+	    </div>
+	</div>
+*/
+
+
+.c-breadcrumbContainer {
+    overflow: hidden;
+background: #ffffff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.c-breadcrumbWrapper {
+    overflow: hidden;
+    padding: 0 4px 0 0;
+    height: 32px;
+    border: none;
+}
+
+.c-breadcrumb ul {
+    direction: rtl;
+    overflow-x: auto;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    word-wrap: normal;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    line-height: 32px;
+    font-size: 10px;
+    color: #848484;
+    vertical-align: middle;
+    height: 52px;
+    text-align: left;
+}
+
+.c-breadcrumb ul li:first-child {
+    padding-left: 8px;
+}
+
+.c-breadcrumb ul li {
+    position: relative;
+    padding: 0 4px;
+    white-space: nowrap;
+    display: inline;
+}
+
+.c-breadcrumb ul li a {
+    font-size: 10px;
+    color: #848484;
+}
+
+.c-breadcrumb ul li:last-of-type > a {
+    color: #1F1F1F;
+}

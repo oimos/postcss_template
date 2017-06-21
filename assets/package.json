@@ -1,0 +1,37 @@
+{
+  "name": "renew-ichiba-ui-assets",
+  "version": "1.0.0",
+  "description": "This is for creating ui components for renewal projects. ",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss ./src/css/style.css -o ./css/style.css -w",
+    "stylelint": "stylelint --config .stylelintrc src/css/component/**/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://shinya.takahashi@git.rakuten-it.com/scm/~shinya.takahashi/renewal_product_pc.git"
+  },
+  "author": "CWD Devteam",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "csswring": "^5.1.1",
+    "google-closure-compiler": "*",
+    "jshint": "*",
+    "postcss": "^5.2.16",
+    "postcss-calc": "^5.3.1",
+    "postcss-cli": "^3.1.1",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-current-selector": "0.0.3",
+    "postcss-flexbugs-fixes": "^2.1.0",
+    "postcss-import": "^9.1.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^3.0.0",
+    "postcss-sprites": "^4.2.1",
+    "postcss-will-change": "^1.1.0",
+    "stylefmt": "^6.0.0",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-rscss": "^0.4.0"
+  }
+}

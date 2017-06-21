@@ -1,0 +1,35 @@
+/*@import "./utility/reset.css";*/
+
+/*non retina*/
+.spriteEl1{
+  background: url(../../img/001-search.png) no-repeat 0 0;
+  width: 32px;
+  height: 32px;
+}
+.spriteEl2{
+  background-image: url(../../img/crown_red.png) no-repeat 0 0;
+  width: 20px;
+  height: 20px;
+}
+
+/*for retina*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .spriteEl1{
+      background: url(../../img/001-search@2x.png) no-repeat 0 0;
+      width: 32px;
+      height: 32px;
+    }
+    .spriteEl2{
+      background-image: url(../../img/crown_red@2x.png) no-repeat 0 0;
+      width: 20px;
+      height: 20px;
+    }
+}
+
+
