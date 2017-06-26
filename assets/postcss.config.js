@@ -7,7 +7,7 @@ module.exports = {
 		require('postcss-will-change'),
 		require('postcss-sprites')({
 			stylesheetPath: './css/', //path of output css file
-			spritePath: './img/', //path of image files
+			spritePath: './img/', //path of image files from input css file
 			retina: true,
 			spritesmith: {
 				padding: 10,
